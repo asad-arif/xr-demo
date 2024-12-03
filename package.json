@@ -1,0 +1,23 @@
+{
+  "name": "xr-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/xr": "^6.4.12",
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.171.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0"
+  }
+}
