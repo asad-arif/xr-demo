@@ -4,7 +4,7 @@ import { XR, createXRStore } from "@react-three/xr";
 import { useState } from "react";
 
 const store = createXRStore();
-const page = () => {
+const Page = () => {
   const [red, setRed] = useState(false);
 
   return (
@@ -26,4 +26,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
